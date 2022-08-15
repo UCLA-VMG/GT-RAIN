@@ -32,7 +32,7 @@ Download the dataset from the link above and change the parameters in the traini
 ## Running
 **Training:** After setting up the directory structure as specified above, simply run the training loop at the bottom of ```training_deraining_code.ipynb```. Additionally, model weights can be loaded from previous checkpoints by changing ```model_train``` and ```model_path``` in the parameters section.
 
-**Testing:** For testing, we provide two separate versions in ```testing_deraining_code.ipynb```, one for a generic test set which is done by specifying separate folders for the input rainy images and corresponding ground truths in the parameter section, and another for using our test set which can be downloaded from the the dataset link above. Our final model weights is at ```model/model_checkpoint.pth```.
+**Testing:** For testing, we provide two separate versions in ```testing_deraining_code.ipynb```, one for a generic test set which is done by specifying separate folders for the input rainy images and corresponding ground truths in the parameter section, and another for using our test set which can be downloaded from the the dataset link above. Our final model weights are located at ```model/model_checkpoint.pth```.
 
 ## Contact
 Yunhao Ba</br>
