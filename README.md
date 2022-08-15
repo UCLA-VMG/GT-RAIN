@@ -21,12 +21,19 @@ We propose a large-scale dataset of real-world rainy and clean image pairs and a
 ```
 
 ## Dataset
+The dataset can be found here:
+https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing
 
 ## Requirements
+All code was tested using **Python** 3.7.13. For other dependencies, please use requirements.txt.
 
 ## Setup
+Download the dataset from the link above and change the parameters in the training and testing code to point to the appropriate directories.  
 
 ## Running
+**Training:** After setting up the directory structure as specified above, simply run the training loop at the bottom of ```training_deraining_code.ipynb```. Additionally, model weights can be loaded from previous checkpoints by changing ```model_train``` and ```model_path``` in the parameters section.
+
+**Testing:** For testing, we provide two separate versions, one for a generic test set which is done by specifying separate folders for the input rainy images and corresponding ground truths in the parameter section, and another for running it on our test set which can be downloaded from the the dataset link above. Our final model weights can be found at ```model/model_checkpoint.pth```.
 
 ## Contact
 Yunhao Ba</br>
