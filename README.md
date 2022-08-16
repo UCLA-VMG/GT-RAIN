@@ -43,9 +43,9 @@ Download the dataset from the link above and change the parameters in the traini
 
 ## Contact
 Yunhao Ba</br>
-Electrical and Computer Engineering Department</br>
+UCLA, Electrical and Computer Engineering Department</br>
 yhba@ucla.edu
 
 Howard Zhang</br>
-Electrical and Computer Engineering Department</br>
+UCLA, Electrical and Computer Engineering Department</br>
 hwdz15508@g.ucla.edu
