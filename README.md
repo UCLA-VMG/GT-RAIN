@@ -41,6 +41,9 @@ Download the dataset from the link above and change the parameters in the traini
 
 **Testing:** For testing, we provide two separate versions in ```testing_deraining_code.ipynb```, one for a generic test set which is done by specifying separate folders for the input rainy images and corresponding ground truths in the parameter section, and another for using our test set which can be downloaded from the the dataset link above. Our final model weights are located at ```model/model_checkpoint.pth```.
 
+## Disclaimer
+Please only use the code and dataset for research purposes.
+
 ## Contact
 Yunhao Ba</br>
 UCLA, Electrical and Computer Engineering Department</br>
