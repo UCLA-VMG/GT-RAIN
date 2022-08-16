@@ -24,13 +24,20 @@ We propose a large-scale dataset of real-world rainy and clean image pairs and a
 The dataset can be found [here](https://drive.google.com/drive/folders/1NSRl954QPcGIgoyJa_VjQwh_gEaHWPb8?usp=sharing).
 
 ## Requirements
-All code was tested using **Python** 3.7.13. For other dependencies, please use requirements.txt.
+All code was tested on Google Colab with the following:
 
+- Ubuntu 18.04.6
+- CUDA 11.2
+- Python 3.7.13
+- OpenCV-Python 4.6.0
+- PyTorch 1.12.1
+- scikit-image 0.18.3
+- piq 0.7.0
 ## Setup
 Download the dataset from the link above and change the parameters in the training and testing code to point to the appropriate directories.  
 
 ## Running
-**Training:** After setting up the directory structure as specified above, simply run the training loop at the bottom of ```training_deraining_code.ipynb```. Additionally, model weights can be loaded from previous checkpoints by changing ```model_train``` and ```model_path``` in the parameters section.
+**Training:** After setting up the directory structure as specified above, simply run the training loop at the bottom of ```training_deraining_code.ipynb```. Additionally, model weights can be loaded from previous checkpoints by changing ```resume_train``` and ```model_path``` in the parameters section.
 
 **Testing:** For testing, we provide two separate versions in ```testing_deraining_code.ipynb```, one for a generic test set which is done by specifying separate folders for the input rainy images and corresponding ground truths in the parameter section, and another for using our test set which can be downloaded from the the dataset link above. Our final model weights are located at ```model/model_checkpoint.pth```.
 
@@ -38,3 +45,7 @@ Download the dataset from the link above and change the parameters in the traini
 Yunhao Ba</br>
 Electrical and Computer Engineering Department</br>
 yhba@ucla.edu
+
+Howard Zhang</br>
+Electrical and Computer Engineering Department</br>
+hwdz15508@g.ucla.edu
