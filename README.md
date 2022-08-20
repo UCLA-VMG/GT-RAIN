@@ -13,7 +13,7 @@ We propose a large-scale dataset of real-world rainy and clean image pairs and a
 
 ```
 @InProceedings{ba2022gt-rain,
-      author={Ba, Yunhao and Zhang, Howard, and Yang, Ethan, and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso and You, Suya and Soatto, Stefano and Wong, Alex and Kadambi, Achuta},
+      author={Ba, Yunhao and Zhang, Howard, and Yang, Ethan and Suzuki, Akira and Pfahnl, Arnold and Chandrappa, Chethan Chinder and de Melo, Celso and You, Suya and Soatto, Stefano and Wong, Alex and Kadambi, Achuta},
       title={Not Just Streaks: Towards Ground Truth for Single Image Deraining},
       booktitle={ECCV},
       year={2022}
